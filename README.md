@@ -1,20 +1,12 @@
-# AMRE Arcade Terminal (Magento 2 Module) - Eckohaus Indonesia
-
-**Description:** A relational interface layer for the Angular Momentum Reaction Engine (AMRE). This module facilitates 64-bit double-precision physics calculations by bridging the Magento 2 storefront with a self-hosted Fortran calculation motor.
-
-**Regional Integration Segment:** This repository is specifically configured for **Eckohaus Indonesia**, utilizing **Midtrans (QRIS/Virtual Account)** as the primary payment processor for AMRE Token transactions in IDR.
-
-**URL:** [https://kupu-home.com/terminal/amre-arcade-terminal](https://kupu-home.com/terminal/amre-arcade-terminal)
-
-## 1. Technical Architecture
-- **Protocol:** Translates frontend JSON payloads into GET query parameters.
-- **Endpoint:** Proxies requests to the internal Nginx gateway (Port 8080).
-- **Target:** `base_equation.bin` (Fortran Binary).
-
-## 2. Deployment Pipeline (Golden Rule)
-1. **Draft/Test:** Local OneDrive.
-2. **Master Copy:** GitHub (Push from local).
-3. **Production Motor:** Linode (Pull from GitHub).
-
-## 3. Administrative Note
-This module utilizes inline CSS overrides (`!important`) in the `.phtml` templates to maintain the "Green Phosphor" UI across varied Magento theme states.
+# Modul Magento: AMRE Arcade (Eckohaus Indonesia) 
+ 
+Antarmuka terjemahan frontend yang menghadap konsumen utama untuk matriks komersial Eckohaus. Modul Magento 2 ini mengintegrasikan perhitungan CGI Fortran gain tinggi dari Angular Momentum Reaction Engine (AMRE) inti ke dalam kanvas WebGL/Three.js interaktif (Kupu Terminal/Spatial) yang disesuaikan untuk pengiriman CDN regional. 
+ 
+## ?? Fungsionalitas Inti 
+* **Buku Besar Visual:** Bertindak sebagai skema interaktif yang menunjukkan transkripsi anak sungai cahaya menjadi materi, memetakan vektor toroidal yang digerakkan oleh Riccati ke titik akhir fisik. 
+* **Integrasi Frontend:** Menyebarkan lingkungan kanvas yang ditargetkan yang dipetakan ke domain yang berbeda dan dikompilasi dalam parameter `_extend.less` khusus. 
+ 
+## ?? Lisensi & Status Hukum 
+Modul ini adalah kerangka kerja tertutup dan eksklusif yang beroperasi di bawah **Lisensi Perangkat Lunak Eksklusif Eckohaus**. 
+ 
+> **Pemberitahuan Hukum:** Pengaturan struktural dan skema arsitektur repositori ini sedang dalam aplikasi aktif untuk pendaftaran kode perangkat lunak formal dengan **Kantor Hak Cipta Amerika Serikat (USCO)**. Visibilitas publik dipertahankan secara ketat untuk transparansi ekosistem. Distribusi ulang, replikasi, atau penerapan komersial yang tidak sah dilarang keras. Silakan merujuk ke file `LICENSE` untuk parameter lengkap. 
